@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.registration-form{
+	width: 100%;
+	background-color: #76E3EA;
+	height: 100vh;
+	padding: 90px 216px;
+}
+.form-box{
+	width: 60%;
+	display: flex;
+	height: 70vh;
+
+}
+.left{
+	background-color: #3685BD;
+	flex-basis: 50%;
+
+}
+.left h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	color:white;
+	text-transform: uppercase;
+	margin: 25px 20px;
+	font-weight: 600;
+	
+}
+.left p{
+	color: #f1efef;
+    font-size: 12px;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.left button{
+	 margin: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.right{
+	background-color: white;
+	flex-basis: 50%;
+}
+.right h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	color:#3685BD;
+	text-transform: uppercase;
+	margin: 25px 20px;
+	font-weight: 600;
+
+}
+/*.fullform{*/
+	/*margin:25px 20px;*/
+/*}*/
+.names{
+	display: flex;
+	justify-content: space-between;
+}
+.fn{
+	width:50%;
+}
+.fn label{
+	display: block;
+	margin-left: 20px;
+}
+.fn input{
+	 width: 67%;
+    outline: none;
+    border: 1px solid #ededed;
+    margin-left: 20px;
+    padding: 12px 0px 12px 16px;
+     
+
+}
+.emails{
+	margin-top: 25px;
+}
+.emails label{
+	display: block;
+	margin-left: 20px;
+
+}
+.emails input{
+	display: block;
+	width: 84%;
+    /*height: 35px;*/
+    outline: none;
+    border:1px solid  #ededed;
+    margin-left: 20px;
+     padding: 12px 0px 12px 16px;
+    
+}
+.password{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+.p{
+	width: 50%;
+}
+.p label{
+	display: block;
+	margin-left: 20px;
+
+}
+.p input{
+	
+	 width: 67%;
+    outline: none;
+    border: 1px solid #ededed;
+    margin-left: 20px;
+    padding: 12px 0px 12px 16px;
+     
+
+}
+.checkbox{
+	margin: 25px 20px;
+}
+.right button{
+	padding: 11px 28px;
+    color: white;
+    background-color: #3686BD;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+label{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+}
