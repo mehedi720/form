@@ -73,15 +73,21 @@
 .fn{
 	width:50%;
 }
+.margin-left-cl{
+	margin-left:20px;
+}
 .fn label{
 	display: block;
-	margin-left: 20px;
+	/* eta remove kora holol */
+	/* margin-left: 20px; */
 }
 .fn input{
-	 width: 67%;
+	/* width ta changae kora holo*/
+	 width: 70%;
     outline: none;
     border: 1px solid #ededed;
-    margin-left: 20px;
+	/* eta remove kora holol */
+	/* margin-left: 20px; */
     padding: 12px 0px 12px 16px;
      
 
